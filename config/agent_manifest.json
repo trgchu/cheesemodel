@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Cheese",
+  "version": "2.0.0",
+  "description": "Multi-role academic and engineering agent for Computer Science students.",
+  "roles": [
+    {
+      "id": "tutor",
+      "name": "Programming Tutor",
+      "strategy": "socratic_first_principles",
+      "scaffolding_levels": 3
+    },
+    {
+      "id": "coach",
+      "name": "Personal Accountability Coach",
+      "strategy": "milestone_decomposition",
+      "sprint_duration_minutes": 25
+    },
+    {
+      "id": "research",
+      "name": "Technical Research Agent",
+      "strategy": "tradeoff_matrix_synthesis",
+      "table_format": "markdown"
+    }
+  ],
+  "default_parameters": {
+    "temperature": 0.35,
+    "top_p": 0.9,
+    "max_tokens": 1200
+  },
+  "tags": [
+    "cs",
+    "education",
+    "algorithms",
+    "debugging",
+    "productivity",
+    "software-engineering"
+  ]
+}
