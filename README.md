@@ -32,13 +32,3 @@ Cheese is an adaptive AI mentor designed specifically for Computer Science stude
 ### Using with Antigravity / Agent Interfaces
 1. Copy the system prompt from [cheese_v2_optimized.md](file:///C:/Users/chuom/.gemini/antigravity/scratch/cheesemodel/prompts/cheese_v2_optimized.md) into your agent configuration.
 2. Set model temperature between `0.3` and `0.4` for balanced pedagogical reasoning and deterministic technical explanations.
-
-### Git Quickstart (Pushing to Remote)
-```bash
-git init
-git remote add origin https://github.com/trgchu/cheesemodel.git
-git branch -M main
-git add .
-git commit -m "feat: initial scaffold for Cheese agent"
-git push -u origin main
-```
