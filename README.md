@@ -7,7 +7,7 @@ Cheese is an adaptive AI mentor designed specifically for Computer Science stude
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -27,7 +27,7 @@ Cheese is an adaptive AI mentor designed specifically for Computer Science stude
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Using with Antigravity / Agent Interfaces
 1. Copy the system prompt from [cheese_v2_optimized.md](file:///C:/Users/chuom/.gemini/antigravity/scratch/cheesemodel/prompts/cheese_v2_optimized.md) into your agent configuration.
